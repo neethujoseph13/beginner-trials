@@ -2,13 +2,6 @@ body {
     background-color: black;
 }
 
-h1 {
-    font-family: "Arial", Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 10vh;
-
-}
-
 p {
     font-size: 20px;
     font-weight: normal;
@@ -20,18 +13,19 @@ p {
     font-weight: bold;
 }
 
-#main {
+#main{
     position: relative;
     padding: 100px;
 }
 
-.container {
+.home {
     background-color: white;
     width: auto;
     height: auto;
 }
 
-.img-fluid {
+.icon{
+    margin-top: 15px;
     height: 50px;
     width: 50px;
 }
@@ -41,19 +35,22 @@ p {
     color: rgb(63, 195, 247);
 }
 
-.row {
-    padding-top: 30px;
-
-}
-
-.col-sm-3 {
+.first-row {
+    font-family: "Arial", Helvetica, sans-serif;
     text-align: center;
-    padding-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 10vh;
 }
 
-.col-sm-12 {
+.mid-row {
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    
+}
+
+.last-row {
     text-align: right;
     padding-right: 15px;
     padding-bottom: 15px;
